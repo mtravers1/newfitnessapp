@@ -5,12 +5,18 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavComponent } from './nav/nav.component';
 import { BannerComponent } from './banner/banner.component';
+import { NutritionComponent } from './pages/nutrition/nutrition.component';
+import { FitnessComponent } from './pages/fitness/fitness.component';
+import { CardComponent } from './pages/card/card.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavComponent,
-    BannerComponent
+    BannerComponent,
+    NutritionComponent,
+    FitnessComponent,
+    CardComponent
   ],
   imports: [
     BrowserModule,
